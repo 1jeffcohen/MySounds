@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF1B4D261BACA6A000EE44B5 /* kellyclarkson.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D251BACA6A000EE44B5 /* kellyclarkson.mp3 */; };
+		CF1B4D2A1BACCC5800EE44B5 /* mystery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D291BACCC5800EE44B5 /* mystery.jpg */; };
+		CF1B4D451BACD5C300EE44B5 /* abouttograduate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D2C1BACD5C300EE44B5 /* abouttograduate.mp3 */; };
+		CF1B4D461BACD5C300EE44B5 /* backinside.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D2D1BACD5C300EE44B5 /* backinside.mp3 */; };
+		CF1B4D471BACD5C300EE44B5 /* backtoyou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D2E1BACD5C300EE44B5 /* backtoyou.mp3 */; };
+		CF1B4D481BACD5C300EE44B5 /* beverage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D2F1BACD5C300EE44B5 /* beverage.mp3 */; };
+		CF1B4D491BACD5C300EE44B5 /* blue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D301BACD5C300EE44B5 /* blue.mp3 */; };
+		CF1B4D4A1BACD5C300EE44B5 /* catalina.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D311BACD5C300EE44B5 /* catalina.mp3 */; };
+		CF1B4D4B1BACD5C300EE44B5 /* cypresshill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D321BACD5C300EE44B5 /* cypresshill.mp3 */; };
+		CF1B4D4C1BACD5C300EE44B5 /* deafandstupid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D331BACD5C300EE44B5 /* deafandstupid.mp3 */; };
+		CF1B4D4D1BACD5C300EE44B5 /* gangstas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D341BACD5C300EE44B5 /* gangstas.mp3 */; };
+		CF1B4D4E1BACD5C300EE44B5 /* goawaybatin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D351BACD5C300EE44B5 /* goawaybatin.mp3 */; };
+		CF1B4D4F1BACD5C300EE44B5 /* headache.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D361BACD5C300EE44B5 /* headache.mp3 */; };
+		CF1B4D501BACD5C300EE44B5 /* hey_bud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D371BACD5C300EE44B5 /* hey_bud.mp3 */; };
+		CF1B4D511BACD5C300EE44B5 /* huckleberry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D381BACD5C300EE44B5 /* huckleberry.mp3 */; };
+		CF1B4D521BACD5C300EE44B5 /* imeating.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D391BACD5C300EE44B5 /* imeating.mp3 */; };
+		CF1B4D531BACD5C300EE44B5 /* joey3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D3A1BACD5C300EE44B5 /* joey3.mp3 */; };
+		CF1B4D541BACD5C300EE44B5 /* looksfake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D3B1BACD5C300EE44B5 /* looksfake.mp3 */; };
+		CF1B4D551BACD5C300EE44B5 /* naked.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D3C1BACD5C300EE44B5 /* naked.mp3 */; };
+		CF1B4D561BACD5C300EE44B5 /* no-shirt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D3D1BACD5C300EE44B5 /* no-shirt.mp3 */; };
+		CF1B4D571BACD5C300EE44B5 /* noproblemo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D3E1BACD5C300EE44B5 /* noproblemo.mp3 */; };
+		CF1B4D581BACD5C300EE44B5 /* notthewholetime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D3F1BACD5C300EE44B5 /* notthewholetime.mp3 */; };
+		CF1B4D591BACD5C300EE44B5 /* power.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D401BACD5C300EE44B5 /* power.mp3 */; };
+		CF1B4D5A1BACD5C300EE44B5 /* prepare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D411BACD5C300EE44B5 /* prepare.mp3 */; };
+		CF1B4D5B1BACD5C300EE44B5 /* rosebud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D421BACD5C300EE44B5 /* rosebud.mp3 */; };
+		CF1B4D5C1BACD5C300EE44B5 /* thatword.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D431BACD5C300EE44B5 /* thatword.mp3 */; };
+		CF1B4D5D1BACD5C300EE44B5 /* thedicething.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1B4D441BACD5C300EE44B5 /* thedicething.mp3 */; };
+		CF60BA591BAB9DE00092C687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60BA581BAB9DE00092C687 /* AppDelegate.swift */; };
+		CF60BA5B1BAB9DE00092C687 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60BA5A1BAB9DE00092C687 /* ViewController.swift */; };
+		CF60BA5E1BAB9DE00092C687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF60BA5C1BAB9DE00092C687 /* Main.storyboard */; };
+		CF60BA601BAB9DE00092C687 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF60BA5F1BAB9DE00092C687 /* Images.xcassets */; };
+		CF60BA631BAB9DE00092C687 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF60BA611BAB9DE00092C687 /* LaunchScreen.xib */; };
+		CF60BA6F1BAB9DE00092C687 /* MySoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60BA6E1BAB9DE00092C687 /* MySoundsTests.swift */; };
+		CF60BA791BAB9FAE0092C687 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF60BA781BAB9FAE0092C687 /* bg.jpg */; };
+		CF60BA7B1BABA2E80092C687 /* seinfeld.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF60BA7A1BABA2E80092C687 /* seinfeld.jpeg */; };
+		CF60BA7D1BABAAF80092C687 /* backToTheFuture.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF60BA7C1BABAAF80092C687 /* backToTheFuture.jpeg */; };
+		CF60BA7F1BABAD260092C687 /* haroldAndKumar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF60BA7E1BABAD260092C687 /* haroldAndKumar.jpeg */; };
+		CF60BA9E1BABD6330092C687 /* cando90.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BA9A1BABD6330092C687 /* cando90.mp3 */; };
+		CF60BA9F1BABD6330092C687 /* mayorgoldie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BA9B1BABD6330092C687 /* mayorgoldie.mp3 */; };
+		CF60BAA01BABD6330092C687 /* thinkmcfly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BA9C1BABD6330092C687 /* thinkmcfly.mp3 */; };
+		CF60BAA11BABD6330092C687 /* yourmom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BA9D1BABD6330092C687 /* yourmom.mp3 */; };
+		CF60BAA71BABD7370092C687 /* doogiehowser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BAA41BABD7370092C687 /* doogiehowser.mp3 */; };
+		CF60BAA81BABD7370092C687 /* outofherass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BAA51BABD7370092C687 /* outofherass.mp3 */; };
+		CF60BAA91BABD7370092C687 /* seeherboobs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BAA61BABD7370092C687 /* seeherboobs.mp3 */; };
+		CF60BAAD1BABD8790092C687 /* sdingo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BAAA1BABD8790092C687 /* sdingo.mp3 */; };
+		CF60BAAE1BABD8790092C687 /* sfpret.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BAAB1BABD8790092C687 /* sfpret.mp3 */; };
+		CF60BAAF1BABD8790092C687 /* sfsoup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BAAC1BABD8790092C687 /* sfsoup.mp3 */; };
+		CF60BAB11BAC8CA70092C687 /* versoph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BAB01BAC8CA70092C687 /* versoph.mp3 */; };
+		CF60BAB31BAC8CB20092C687 /* gottadoporn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BAB21BAC8CB20092C687 /* gottadoporn.mp3 */; };
+		CF60BABA1BAC903D0092C687 /* checkoutchannel9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BAB51BAC903D0092C687 /* checkoutchannel9.mp3 */; };
+		CF60BABB1BAC903D0092C687 /* ididnothing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BAB61BAC903D0092C687 /* ididnothing.mp3 */; };
+		CF60BABC1BAC903D0092C687 /* paperjam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BAB71BAC903D0092C687 /* paperjam.mp3 */; };
+		CF60BAC01BAC938A0092C687 /* whatshappening.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BABF1BAC938A0092C687 /* whatshappening.mp3 */; };
+		CF60BAC21BAC93970092C687 /* officeSpace.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF60BAC11BAC93970092C687 /* officeSpace.jpeg */; };
+		CF60BAC81BAC97030092C687 /* 40yearOldVirgin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF60BAC71BAC97030092C687 /* 40yearOldVirgin.jpeg */; };
+		CF60BACF1BAC98780092C687 /* frenchtoast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BACA1BAC98780092C687 /* frenchtoast.mp3 */; };
+		CF60BAD01BAC98780092C687 /* getonthat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BACB1BAC98780092C687 /* getonthat.mp3 */; };
+		CF60BAD11BAC98780092C687 /* howyoutalk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BACC1BAC98780092C687 /* howyoutalk.mp3 */; };
+		CF60BAD21BAC98780092C687 /* talkdirty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BACD1BAC98780092C687 /* talkdirty.mp3 */; };
+		CF60BAD31BAC98780092C687 /* yahmoburnthisplace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BACE1BAC98780092C687 /* yahmoburnthisplace.mp3 */; };
+		CF60BAD61BAC9AE30092C687 /* talladegaNights.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF60BAD51BAC9AE30092C687 /* talladegaNights.jpeg */; };
+		CF60BADD1BAC9FFD0092C687 /* helpmetomcruise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BAD81BAC9FFD0092C687 /* helpmetomcruise.mp3 */; };
+		CF60BADE1BAC9FFD0092C687 /* jackedup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BAD91BAC9FFD0092C687 /* jackedup.mp3 */; };
+		CF60BADF1BAC9FFD0092C687 /* madethatgrace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BADA1BAC9FFD0092C687 /* madethatgrace.mp3 */; };
+		CF60BAE01BAC9FFD0092C687 /* shakeandbake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BADB1BAC9FFD0092C687 /* shakeandbake.mp3 */; };
+		CF60BAE11BAC9FFD0092C687 /* spidermonkey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF60BADC1BAC9FFD0092C687 /* spidermonkey.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF60BA691BAB9DE00092C687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF60BA4B1BAB9DE00092C687 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF60BA521BAB9DE00092C687;
+			remoteInfo = MySounds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF1B4D251BACA6A000EE44B5 /* kellyclarkson.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = kellyclarkson.mp3; path = 40yearOldVirgin/kellyclarkson.mp3; sourceTree = "<group>"; };
+		CF1B4D291BACCC5800EE44B5 /* mystery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mystery.jpg; sourceTree = "<group>"; };
+		CF1B4D2C1BACD5C300EE44B5 /* abouttograduate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abouttograduate.mp3; path = mystery/abouttograduate.mp3; sourceTree = "<group>"; };
+		CF1B4D2D1BACD5C300EE44B5 /* backinside.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = backinside.mp3; path = mystery/backinside.mp3; sourceTree = "<group>"; };
+		CF1B4D2E1BACD5C300EE44B5 /* backtoyou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = backtoyou.mp3; path = mystery/backtoyou.mp3; sourceTree = "<group>"; };
+		CF1B4D2F1BACD5C300EE44B5 /* beverage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = beverage.mp3; path = mystery/beverage.mp3; sourceTree = "<group>"; };
+		CF1B4D301BACD5C300EE44B5 /* blue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = blue.mp3; path = mystery/blue.mp3; sourceTree = "<group>"; };
+		CF1B4D311BACD5C300EE44B5 /* catalina.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = catalina.mp3; path = mystery/catalina.mp3; sourceTree = "<group>"; };
+		CF1B4D321BACD5C300EE44B5 /* cypresshill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cypresshill.mp3; path = mystery/cypresshill.mp3; sourceTree = "<group>"; };
+		CF1B4D331BACD5C300EE44B5 /* deafandstupid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = deafandstupid.mp3; path = mystery/deafandstupid.mp3; sourceTree = "<group>"; };
+		CF1B4D341BACD5C300EE44B5 /* gangstas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gangstas.mp3; path = mystery/gangstas.mp3; sourceTree = "<group>"; };
+		CF1B4D351BACD5C300EE44B5 /* goawaybatin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = goawaybatin.mp3; path = mystery/goawaybatin.mp3; sourceTree = "<group>"; };
+		CF1B4D361BACD5C300EE44B5 /* headache.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = headache.mp3; path = mystery/headache.mp3; sourceTree = "<group>"; };
+		CF1B4D371BACD5C300EE44B5 /* hey_bud.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hey_bud.mp3; path = mystery/hey_bud.mp3; sourceTree = "<group>"; };
+		CF1B4D381BACD5C300EE44B5 /* huckleberry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = huckleberry.mp3; path = mystery/huckleberry.mp3; sourceTree = "<group>"; };
+		CF1B4D391BACD5C300EE44B5 /* imeating.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = imeating.mp3; path = mystery/imeating.mp3; sourceTree = "<group>"; };
+		CF1B4D3A1BACD5C300EE44B5 /* joey3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = joey3.mp3; path = mystery/joey3.mp3; sourceTree = "<group>"; };
+		CF1B4D3B1BACD5C300EE44B5 /* looksfake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = looksfake.mp3; path = mystery/looksfake.mp3; sourceTree = "<group>"; };
+		CF1B4D3C1BACD5C300EE44B5 /* naked.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = naked.mp3; path = mystery/naked.mp3; sourceTree = "<group>"; };
+		CF1B4D3D1BACD5C300EE44B5 /* no-shirt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "no-shirt.mp3"; path = "mystery/no-shirt.mp3"; sourceTree = "<group>"; };
+		CF1B4D3E1BACD5C300EE44B5 /* noproblemo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = noproblemo.mp3; path = mystery/noproblemo.mp3; sourceTree = "<group>"; };
+		CF1B4D3F1BACD5C300EE44B5 /* notthewholetime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = notthewholetime.mp3; path = mystery/notthewholetime.mp3; sourceTree = "<group>"; };
+		CF1B4D401BACD5C300EE44B5 /* power.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = power.mp3; path = mystery/power.mp3; sourceTree = "<group>"; };
+		CF1B4D411BACD5C300EE44B5 /* prepare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prepare.mp3; path = mystery/prepare.mp3; sourceTree = "<group>"; };
+		CF1B4D421BACD5C300EE44B5 /* rosebud.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rosebud.mp3; path = mystery/rosebud.mp3; sourceTree = "<group>"; };
+		CF1B4D431BACD5C300EE44B5 /* thatword.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = thatword.mp3; path = mystery/thatword.mp3; sourceTree = "<group>"; };
+		CF1B4D441BACD5C300EE44B5 /* thedicething.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = thedicething.mp3; path = mystery/thedicething.mp3; sourceTree = "<group>"; };
+		CF60BA531BAB9DE00092C687 /* MySounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF60BA571BAB9DE00092C687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF60BA581BAB9DE00092C687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF60BA5A1BAB9DE00092C687 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF60BA5D1BAB9DE00092C687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF60BA5F1BAB9DE00092C687 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF60BA621BAB9DE00092C687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CF60BA681BAB9DE00092C687 /* MySoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySoundsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF60BA6D1BAB9DE00092C687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF60BA6E1BAB9DE00092C687 /* MySoundsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySoundsTests.swift; sourceTree = "<group>"; };
+		CF60BA781BAB9FAE0092C687 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		CF60BA7A1BABA2E80092C687 /* seinfeld.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seinfeld.jpeg; sourceTree = "<group>"; };
+		CF60BA7C1BABAAF80092C687 /* backToTheFuture.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backToTheFuture.jpeg; sourceTree = "<group>"; };
+		CF60BA7E1BABAD260092C687 /* haroldAndKumar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haroldAndKumar.jpeg; sourceTree = "<group>"; };
+		CF60BA9A1BABD6330092C687 /* cando90.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cando90.mp3; path = backToTheFuture/cando90.mp3; sourceTree = "<group>"; };
+		CF60BA9B1BABD6330092C687 /* mayorgoldie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = mayorgoldie.mp3; path = backToTheFuture/mayorgoldie.mp3; sourceTree = "<group>"; };
+		CF60BA9C1BABD6330092C687 /* thinkmcfly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = thinkmcfly.mp3; path = backToTheFuture/thinkmcfly.mp3; sourceTree = "<group>"; };
+		CF60BA9D1BABD6330092C687 /* yourmom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = yourmom.mp3; path = backToTheFuture/yourmom.mp3; sourceTree = "<group>"; };
+		CF60BAA41BABD7370092C687 /* doogiehowser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = doogiehowser.mp3; path = haroldAndKumar/doogiehowser.mp3; sourceTree = "<group>"; };
+		CF60BAA51BABD7370092C687 /* outofherass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = outofherass.mp3; path = haroldAndKumar/outofherass.mp3; sourceTree = "<group>"; };
+		CF60BAA61BABD7370092C687 /* seeherboobs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = seeherboobs.mp3; path = haroldAndKumar/seeherboobs.mp3; sourceTree = "<group>"; };
+		CF60BAAA1BABD8790092C687 /* sdingo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sdingo.mp3; path = seinfeld/sdingo.mp3; sourceTree = "<group>"; };
+		CF60BAAB1BABD8790092C687 /* sfpret.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sfpret.mp3; path = seinfeld/sfpret.mp3; sourceTree = "<group>"; };
+		CF60BAAC1BABD8790092C687 /* sfsoup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sfsoup.mp3; path = seinfeld/sfsoup.mp3; sourceTree = "<group>"; };
+		CF60BAB01BAC8CA70092C687 /* versoph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = versoph.mp3; path = seinfeld/versoph.mp3; sourceTree = "<group>"; };
+		CF60BAB21BAC8CB20092C687 /* gottadoporn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gottadoporn.mp3; path = haroldAndKumar/gottadoporn.mp3; sourceTree = "<group>"; };
+		CF60BAB51BAC903D0092C687 /* checkoutchannel9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = checkoutchannel9.mp3; path = officeSpace/checkoutchannel9.mp3; sourceTree = "<group>"; };
+		CF60BAB61BAC903D0092C687 /* ididnothing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ididnothing.mp3; path = officeSpace/ididnothing.mp3; sourceTree = "<group>"; };
+		CF60BAB71BAC903D0092C687 /* paperjam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = paperjam.mp3; path = officeSpace/paperjam.mp3; sourceTree = "<group>"; };
+		CF60BABF1BAC938A0092C687 /* whatshappening.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = whatshappening.mp3; path = officeSpace/whatshappening.mp3; sourceTree = "<group>"; };
+		CF60BAC11BAC93970092C687 /* officeSpace.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = officeSpace.jpeg; sourceTree = "<group>"; };
+		CF60BAC71BAC97030092C687 /* 40yearOldVirgin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 40yearOldVirgin.jpeg; sourceTree = "<group>"; };
+		CF60BACA1BAC98780092C687 /* frenchtoast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = frenchtoast.mp3; path = 40yearOldVirgin/frenchtoast.mp3; sourceTree = "<group>"; };
+		CF60BACB1BAC98780092C687 /* getonthat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = getonthat.mp3; path = 40yearOldVirgin/getonthat.mp3; sourceTree = "<group>"; };
+		CF60BACC1BAC98780092C687 /* howyoutalk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = howyoutalk.mp3; path = 40yearOldVirgin/howyoutalk.mp3; sourceTree = "<group>"; };
+		CF60BACD1BAC98780092C687 /* talkdirty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = talkdirty.mp3; path = 40yearOldVirgin/talkdirty.mp3; sourceTree = "<group>"; };
+		CF60BACE1BAC98780092C687 /* yahmoburnthisplace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = yahmoburnthisplace.mp3; path = 40yearOldVirgin/yahmoburnthisplace.mp3; sourceTree = "<group>"; };
+		CF60BAD51BAC9AE30092C687 /* talladegaNights.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = talladegaNights.jpeg; sourceTree = "<group>"; };
+		CF60BAD81BAC9FFD0092C687 /* helpmetomcruise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = helpmetomcruise.mp3; path = talladegaNights/helpmetomcruise.mp3; sourceTree = "<group>"; };
+		CF60BAD91BAC9FFD0092C687 /* jackedup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = jackedup.mp3; path = talladegaNights/jackedup.mp3; sourceTree = "<group>"; };
+		CF60BADA1BAC9FFD0092C687 /* madethatgrace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = madethatgrace.mp3; path = talladegaNights/madethatgrace.mp3; sourceTree = "<group>"; };
+		CF60BADB1BAC9FFD0092C687 /* shakeandbake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shakeandbake.mp3; path = talladegaNights/shakeandbake.mp3; sourceTree = "<group>"; };
+		CF60BADC1BAC9FFD0092C687 /* spidermonkey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = spidermonkey.mp3; path = talladegaNights/spidermonkey.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF60BA501BAB9DE00092C687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF60BA651BAB9DE00092C687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF1B4D2B1BACCC8A00EE44B5 /* mystery */ = {
+			isa = PBXGroup;
+			children = (
+				CF1B4D2C1BACD5C300EE44B5 /* abouttograduate.mp3 */,
+				CF1B4D2D1BACD5C300EE44B5 /* backinside.mp3 */,
+				CF1B4D2E1BACD5C300EE44B5 /* backtoyou.mp3 */,
+				CF1B4D2F1BACD5C300EE44B5 /* beverage.mp3 */,
+				CF1B4D301BACD5C300EE44B5 /* blue.mp3 */,
+				CF1B4D311BACD5C300EE44B5 /* catalina.mp3 */,
+				CF1B4D321BACD5C300EE44B5 /* cypresshill.mp3 */,
+				CF1B4D331BACD5C300EE44B5 /* deafandstupid.mp3 */,
+				CF1B4D341BACD5C300EE44B5 /* gangstas.mp3 */,
+				CF1B4D351BACD5C300EE44B5 /* goawaybatin.mp3 */,
+				CF1B4D361BACD5C300EE44B5 /* headache.mp3 */,
+				CF1B4D371BACD5C300EE44B5 /* hey_bud.mp3 */,
+				CF1B4D381BACD5C300EE44B5 /* huckleberry.mp3 */,
+				CF1B4D391BACD5C300EE44B5 /* imeating.mp3 */,
+				CF1B4D3A1BACD5C300EE44B5 /* joey3.mp3 */,
+				CF1B4D3B1BACD5C300EE44B5 /* looksfake.mp3 */,
+				CF1B4D3C1BACD5C300EE44B5 /* naked.mp3 */,
+				CF1B4D3D1BACD5C300EE44B5 /* no-shirt.mp3 */,
+				CF1B4D3E1BACD5C300EE44B5 /* noproblemo.mp3 */,
+				CF1B4D3F1BACD5C300EE44B5 /* notthewholetime.mp3 */,
+				CF1B4D401BACD5C300EE44B5 /* power.mp3 */,
+				CF1B4D411BACD5C300EE44B5 /* prepare.mp3 */,
+				CF1B4D421BACD5C300EE44B5 /* rosebud.mp3 */,
+				CF1B4D431BACD5C300EE44B5 /* thatword.mp3 */,
+				CF1B4D441BACD5C300EE44B5 /* thedicething.mp3 */,
+			);
+			name = mystery;
+			sourceTree = "<group>";
+		};
+		CF60BA4A1BAB9DE00092C687 = {
+			isa = PBXGroup;
+			children = (
+				CF60BA551BAB9DE00092C687 /* MySounds */,
+				CF60BA6B1BAB9DE00092C687 /* MySoundsTests */,
+				CF60BA541BAB9DE00092C687 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF60BA541BAB9DE00092C687 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF60BA531BAB9DE00092C687 /* MySounds.app */,
+				CF60BA681BAB9DE00092C687 /* MySoundsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF60BA551BAB9DE00092C687 /* MySounds */ = {
+			isa = PBXGroup;
+			children = (
+				CF60BA921BABD1960092C687 /* sounds */,
+				CF60BA801BABC4480092C687 /* images */,
+				CF60BA581BAB9DE00092C687 /* AppDelegate.swift */,
+				CF60BA5A1BAB9DE00092C687 /* ViewController.swift */,
+				CF60BA5C1BAB9DE00092C687 /* Main.storyboard */,
+				CF60BA5F1BAB9DE00092C687 /* Images.xcassets */,
+				CF60BA611BAB9DE00092C687 /* LaunchScreen.xib */,
+				CF60BA561BAB9DE00092C687 /* Supporting Files */,
+			);
+			path = MySounds;
+			sourceTree = "<group>";
+		};
+		CF60BA561BAB9DE00092C687 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF60BA571BAB9DE00092C687 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF60BA6B1BAB9DE00092C687 /* MySoundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF60BA6E1BAB9DE00092C687 /* MySoundsTests.swift */,
+				CF60BA6C1BAB9DE00092C687 /* Supporting Files */,
+			);
+			path = MySoundsTests;
+			sourceTree = "<group>";
+		};
+		CF60BA6C1BAB9DE00092C687 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF60BA6D1BAB9DE00092C687 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF60BA801BABC4480092C687 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CF1B4D291BACCC5800EE44B5 /* mystery.jpg */,
+				CF60BAD51BAC9AE30092C687 /* talladegaNights.jpeg */,
+				CF60BAC71BAC97030092C687 /* 40yearOldVirgin.jpeg */,
+				CF60BAC11BAC93970092C687 /* officeSpace.jpeg */,
+				CF60BA7E1BABAD260092C687 /* haroldAndKumar.jpeg */,
+				CF60BA7C1BABAAF80092C687 /* backToTheFuture.jpeg */,
+				CF60BA7A1BABA2E80092C687 /* seinfeld.jpeg */,
+				CF60BA781BAB9FAE0092C687 /* bg.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		CF60BA921BABD1960092C687 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CF1B4D2B1BACCC8A00EE44B5 /* mystery */,
+				CF60BAD71BAC9B060092C687 /* talladegaNights */,
+				CF60BAC91BAC985A0092C687 /* 40yearOldVirgin */,
+				CF60BAB41BAC8CED0092C687 /* officeSpace */,
+				CF60BA991BABD61B0092C687 /* backToTheFuture */,
+				CF60BAA21BABD64A0092C687 /* haroldAndKumar */,
+				CF60BAA31BABD6620092C687 /* seinfeld */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+		CF60BA991BABD61B0092C687 /* backToTheFuture */ = {
+			isa = PBXGroup;
+			children = (
+				CF60BA9A1BABD6330092C687 /* cando90.mp3 */,
+				CF60BA9B1BABD6330092C687 /* mayorgoldie.mp3 */,
+				CF60BA9C1BABD6330092C687 /* thinkmcfly.mp3 */,
+				CF60BA9D1BABD6330092C687 /* yourmom.mp3 */,
+			);
+			name = backToTheFuture;
+			sourceTree = "<group>";
+		};
+		CF60BAA21BABD64A0092C687 /* haroldAndKumar */ = {
+			isa = PBXGroup;
+			children = (
+				CF60BAB21BAC8CB20092C687 /* gottadoporn.mp3 */,
+				CF60BAA41BABD7370092C687 /* doogiehowser.mp3 */,
+				CF60BAA51BABD7370092C687 /* outofherass.mp3 */,
+				CF60BAA61BABD7370092C687 /* seeherboobs.mp3 */,
+			);
+			name = haroldAndKumar;
+			sourceTree = "<group>";
+		};
+		CF60BAA31BABD6620092C687 /* seinfeld */ = {
+			isa = PBXGroup;
+			children = (
+				CF60BAB01BAC8CA70092C687 /* versoph.mp3 */,
+				CF60BAAA1BABD8790092C687 /* sdingo.mp3 */,
+				CF60BAAB1BABD8790092C687 /* sfpret.mp3 */,
+				CF60BAAC1BABD8790092C687 /* sfsoup.mp3 */,
+			);
+			name = seinfeld;
+			sourceTree = "<group>";
+		};
+		CF60BAB41BAC8CED0092C687 /* officeSpace */ = {
+			isa = PBXGroup;
+			children = (
+				CF60BABF1BAC938A0092C687 /* whatshappening.mp3 */,
+				CF60BAB51BAC903D0092C687 /* checkoutchannel9.mp3 */,
+				CF60BAB61BAC903D0092C687 /* ididnothing.mp3 */,
+				CF60BAB71BAC903D0092C687 /* paperjam.mp3 */,
+			);
+			name = officeSpace;
+			sourceTree = "<group>";
+		};
+		CF60BAC91BAC985A0092C687 /* 40yearOldVirgin */ = {
+			isa = PBXGroup;
+			children = (
+				CF1B4D251BACA6A000EE44B5 /* kellyclarkson.mp3 */,
+				CF60BACA1BAC98780092C687 /* frenchtoast.mp3 */,
+				CF60BACB1BAC98780092C687 /* getonthat.mp3 */,
+				CF60BACC1BAC98780092C687 /* howyoutalk.mp3 */,
+				CF60BACD1BAC98780092C687 /* talkdirty.mp3 */,
+				CF60BACE1BAC98780092C687 /* yahmoburnthisplace.mp3 */,
+			);
+			name = 40yearOldVirgin;
+			sourceTree = "<group>";
+		};
+		CF60BAD71BAC9B060092C687 /* talladegaNights */ = {
+			isa = PBXGroup;
+			children = (
+				CF60BAD81BAC9FFD0092C687 /* helpmetomcruise.mp3 */,
+				CF60BAD91BAC9FFD0092C687 /* jackedup.mp3 */,
+				CF60BADA1BAC9FFD0092C687 /* madethatgrace.mp3 */,
+				CF60BADB1BAC9FFD0092C687 /* shakeandbake.mp3 */,
+				CF60BADC1BAC9FFD0092C687 /* spidermonkey.mp3 */,
+			);
+			name = talladegaNights;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF60BA521BAB9DE00092C687 /* MySounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF60BA721BAB9DE00092C687 /* Build configuration list for PBXNativeTarget "MySounds" */;
+			buildPhases = (
+				CF60BA4F1BAB9DE00092C687 /* Sources */,
+				CF60BA501BAB9DE00092C687 /* Frameworks */,
+				CF60BA511BAB9DE00092C687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySounds;
+			productName = MySounds;
+			productReference = CF60BA531BAB9DE00092C687 /* MySounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF60BA671BAB9DE00092C687 /* MySoundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF60BA751BAB9DE00092C687 /* Build configuration list for PBXNativeTarget "MySoundsTests" */;
+			buildPhases = (
+				CF60BA641BAB9DE00092C687 /* Sources */,
+				CF60BA651BAB9DE00092C687 /* Frameworks */,
+				CF60BA661BAB9DE00092C687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF60BA6A1BAB9DE00092C687 /* PBXTargetDependency */,
+			);
+			name = MySoundsTests;
+			productName = MySoundsTests;
+			productReference = CF60BA681BAB9DE00092C687 /* MySoundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF60BA4B1BAB9DE00092C687 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = JBC;
+				TargetAttributes = {
+					CF60BA521BAB9DE00092C687 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CF60BA671BAB9DE00092C687 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CF60BA521BAB9DE00092C687;
+					};
+				};
+			};
+			buildConfigurationList = CF60BA4E1BAB9DE00092C687 /* Build configuration list for PBXProject "MySounds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF60BA4A1BAB9DE00092C687;
+			productRefGroup = CF60BA541BAB9DE00092C687 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF60BA521BAB9DE00092C687 /* MySounds */,
+				CF60BA671BAB9DE00092C687 /* MySoundsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF60BA511BAB9DE00092C687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF60BAB11BAC8CA70092C687 /* versoph.mp3 in Resources */,
+				CF60BADF1BAC9FFD0092C687 /* madethatgrace.mp3 in Resources */,
+				CF1B4D4F1BACD5C300EE44B5 /* headache.mp3 in Resources */,
+				CF1B4D5C1BACD5C300EE44B5 /* thatword.mp3 in Resources */,
+				CF60BACF1BAC98780092C687 /* frenchtoast.mp3 in Resources */,
+				CF60BA9F1BABD6330092C687 /* mayorgoldie.mp3 in Resources */,
+				CF1B4D551BACD5C300EE44B5 /* naked.mp3 in Resources */,
+				CF1B4D561BACD5C300EE44B5 /* no-shirt.mp3 in Resources */,
+				CF1B4D491BACD5C300EE44B5 /* blue.mp3 in Resources */,
+				CF60BA7D1BABAAF80092C687 /* backToTheFuture.jpeg in Resources */,
+				CF1B4D591BACD5C300EE44B5 /* power.mp3 in Resources */,
+				CF60BA7F1BABAD260092C687 /* haroldAndKumar.jpeg in Resources */,
+				CF1B4D5B1BACD5C300EE44B5 /* rosebud.mp3 in Resources */,
+				CF1B4D451BACD5C300EE44B5 /* abouttograduate.mp3 in Resources */,
+				CF60BAC21BAC93970092C687 /* officeSpace.jpeg in Resources */,
+				CF1B4D261BACA6A000EE44B5 /* kellyclarkson.mp3 in Resources */,
+				CF60BA5E1BAB9DE00092C687 /* Main.storyboard in Resources */,
+				CF1B4D541BACD5C300EE44B5 /* looksfake.mp3 in Resources */,
+				CF60BADE1BAC9FFD0092C687 /* jackedup.mp3 in Resources */,
+				CF60BADD1BAC9FFD0092C687 /* helpmetomcruise.mp3 in Resources */,
+				CF60BAB31BAC8CB20092C687 /* gottadoporn.mp3 in Resources */,
+				CF60BAA11BABD6330092C687 /* yourmom.mp3 in Resources */,
+				CF60BABB1BAC903D0092C687 /* ididnothing.mp3 in Resources */,
+				CF1B4D4B1BACD5C300EE44B5 /* cypresshill.mp3 in Resources */,
+				CF60BAD21BAC98780092C687 /* talkdirty.mp3 in Resources */,
+				CF60BAA71BABD7370092C687 /* doogiehowser.mp3 in Resources */,
+				CF1B4D5A1BACD5C300EE44B5 /* prepare.mp3 in Resources */,
+				CF1B4D4E1BACD5C300EE44B5 /* goawaybatin.mp3 in Resources */,
+				CF1B4D571BACD5C300EE44B5 /* noproblemo.mp3 in Resources */,
+				CF60BA631BAB9DE00092C687 /* LaunchScreen.xib in Resources */,
+				CF60BAD01BAC98780092C687 /* getonthat.mp3 in Resources */,
+				CF60BA791BAB9FAE0092C687 /* bg.jpg in Resources */,
+				CF60BAAF1BABD8790092C687 /* sfsoup.mp3 in Resources */,
+				CF1B4D511BACD5C300EE44B5 /* huckleberry.mp3 in Resources */,
+				CF60BAE01BAC9FFD0092C687 /* shakeandbake.mp3 in Resources */,
+				CF1B4D4A1BACD5C300EE44B5 /* catalina.mp3 in Resources */,
+				CF1B4D501BACD5C300EE44B5 /* hey_bud.mp3 in Resources */,
+				CF60BAC01BAC938A0092C687 /* whatshappening.mp3 in Resources */,
+				CF1B4D481BACD5C300EE44B5 /* beverage.mp3 in Resources */,
+				CF1B4D581BACD5C300EE44B5 /* notthewholetime.mp3 in Resources */,
+				CF60BA9E1BABD6330092C687 /* cando90.mp3 in Resources */,
+				CF1B4D521BACD5C300EE44B5 /* imeating.mp3 in Resources */,
+				CF60BAA81BABD7370092C687 /* outofherass.mp3 in Resources */,
+				CF1B4D471BACD5C300EE44B5 /* backtoyou.mp3 in Resources */,
+				CF60BAD61BAC9AE30092C687 /* talladegaNights.jpeg in Resources */,
+				CF1B4D2A1BACCC5800EE44B5 /* mystery.jpg in Resources */,
+				CF1B4D531BACD5C300EE44B5 /* joey3.mp3 in Resources */,
+				CF60BAE11BAC9FFD0092C687 /* spidermonkey.mp3 in Resources */,
+				CF60BAAD1BABD8790092C687 /* sdingo.mp3 in Resources */,
+				CF60BABA1BAC903D0092C687 /* checkoutchannel9.mp3 in Resources */,
+				CF60BAD31BAC98780092C687 /* yahmoburnthisplace.mp3 in Resources */,
+				CF60BAC81BAC97030092C687 /* 40yearOldVirgin.jpeg in Resources */,
+				CF1B4D5D1BACD5C300EE44B5 /* thedicething.mp3 in Resources */,
+				CF60BABC1BAC903D0092C687 /* paperjam.mp3 in Resources */,
+				CF1B4D461BACD5C300EE44B5 /* backinside.mp3 in Resources */,
+				CF60BAA91BABD7370092C687 /* seeherboobs.mp3 in Resources */,
+				CF1B4D4D1BACD5C300EE44B5 /* gangstas.mp3 in Resources */,
+				CF60BAAE1BABD8790092C687 /* sfpret.mp3 in Resources */,
+				CF1B4D4C1BACD5C300EE44B5 /* deafandstupid.mp3 in Resources */,
+				CF60BA601BAB9DE00092C687 /* Images.xcassets in Resources */,
+				CF60BAD11BAC98780092C687 /* howyoutalk.mp3 in Resources */,
+				CF60BA7B1BABA2E80092C687 /* seinfeld.jpeg in Resources */,
+				CF60BAA01BABD6330092C687 /* thinkmcfly.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF60BA661BAB9DE00092C687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF60BA4F1BAB9DE00092C687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF60BA5B1BAB9DE00092C687 /* ViewController.swift in Sources */,
+				CF60BA591BAB9DE00092C687 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF60BA641BAB9DE00092C687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF60BA6F1BAB9DE00092C687 /* MySoundsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF60BA6A1BAB9DE00092C687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF60BA521BAB9DE00092C687 /* MySounds */;
+			targetProxy = CF60BA691BAB9DE00092C687 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF60BA5C1BAB9DE00092C687 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF60BA5D1BAB9DE00092C687 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF60BA611BAB9DE00092C687 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF60BA621BAB9DE00092C687 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF60BA701BAB9DE00092C687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF60BA711BAB9DE00092C687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF60BA731BAB9DE00092C687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MySounds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF60BA741BAB9DE00092C687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MySounds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF60BA761BAB9DE00092C687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MySoundsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySounds.app/MySounds";
+			};
+			name = Debug;
+		};
+		CF60BA771BAB9DE00092C687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MySoundsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySounds.app/MySounds";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF60BA4E1BAB9DE00092C687 /* Build configuration list for PBXProject "MySounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF60BA701BAB9DE00092C687 /* Debug */,
+				CF60BA711BAB9DE00092C687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF60BA721BAB9DE00092C687 /* Build configuration list for PBXNativeTarget "MySounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF60BA731BAB9DE00092C687 /* Debug */,
+				CF60BA741BAB9DE00092C687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF60BA751BAB9DE00092C687 /* Build configuration list for PBXNativeTarget "MySoundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF60BA761BAB9DE00092C687 /* Debug */,
+				CF60BA771BAB9DE00092C687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF60BA4B1BAB9DE00092C687 /* Project object */;
+}

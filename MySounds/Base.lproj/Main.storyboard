@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="MySounds" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xYE-Yh-MbZ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u30-gA-1Ew">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Q4A-iZ-zIY"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="MySounds" id="TuC-Ss-Zh8">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="y5X-pR-Mkd">
+                                            <connections>
+                                                <action selector="replay:" destination="vXZ-lx-hvc" id="nM5-CZ-ep6"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ivG-li-bTX">
+                                <rect key="frame" x="67" y="617" width="240" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="At8-lS-Zfy"/>
+                                    <constraint firstAttribute="width" constant="236" id="PsJ-5r-3Ym"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="volumeChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="9uP-mt-ef3"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mmg-A5-ElN">
+                                <rect key="frame" x="238" y="171" width="121" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="121" id="1RC-Lv-HQ6"/>
+                                    <constraint firstAttribute="height" constant="88" id="vHK-fe-ycv"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="officeSpace.jpeg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="officeSpace:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XXV-YL-QUi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iXv-Cd-rhD">
+                                <rect key="frame" x="16" y="171" width="121" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="kMQ-4M-Ecy"/>
+                                    <constraint firstAttribute="width" constant="121" id="vqt-Cf-anS"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="haroldAndKumar.jpeg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="haroldAndKumar:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LMp-Un-JjQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZ3-VF-cQz">
+                                <rect key="frame" x="238" y="75" width="121" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="OBb-93-wH9"/>
+                                    <constraint firstAttribute="width" constant="121" id="ffA-gF-g8c"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="backToTheFuture.jpeg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToTheFuture:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NYJ-5M-RnC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAp-up-VHK">
+                                <rect key="frame" x="16" y="75" width="121" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="sL8-Zf-1ey"/>
+                                    <constraint firstAttribute="width" constant="121" id="szy-RZ-OmR"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="seinfeld.jpeg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="seinfeld:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kOv-cK-NEb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1f-7d-HTO">
+                                <rect key="frame" x="238" y="267" width="121" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="121" id="9GC-iw-8ou"/>
+                                    <constraint firstAttribute="height" constant="88" id="KmY-PZ-FIX"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="talladegaNights.jpeg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="talladegaNights:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hg8-ks-Xc6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0S-1o-rMI">
+                                <rect key="frame" x="16" y="267" width="121" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="121" id="DRp-Mc-RtO"/>
+                                    <constraint firstAttribute="height" constant="88" id="Kwk-Cz-3DQ"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="88" id="Won-U2-Dt8"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="121" id="bG1-XZ-bUx"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="40yearOldVirgin.jpeg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fortyYearOldVirgin:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JAH-gS-6Yu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYj-yB-f0O">
+                                <rect key="frame" x="164" y="103" width="46" height="224"/>
+                                <state key="normal" backgroundImage="mystery.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="mystery:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GXf-dQ-hLm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iXv-Cd-rhD" firstAttribute="top" secondItem="aAp-up-VHK" secondAttribute="bottom" constant="8" id="3Fi-eN-jeU"/>
+                            <constraint firstItem="u30-gA-1Ew" firstAttribute="trailing" secondItem="xYE-Yh-MbZ" secondAttribute="trailing" id="3rh-b7-yiH"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ivG-li-bTX" secondAttribute="bottom" constant="20" id="4jx-HT-pBy"/>
+                            <constraint firstItem="F1f-7d-HTO" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="8f7-X3-7SM"/>
+                            <constraint firstItem="xYE-Yh-MbZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="BS8-ZE-IjY"/>
+                            <constraint firstItem="X0S-1o-rMI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="K7J-sC-Dce"/>
+                            <constraint firstItem="u30-gA-1Ew" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="NeW-WS-ABw"/>
+                            <constraint firstItem="jYj-yB-f0O" firstAttribute="top" secondItem="u30-gA-1Ew" secondAttribute="bottom" constant="39" id="Zj8-Kp-WFV"/>
+                            <constraint firstItem="F1f-7d-HTO" firstAttribute="top" secondItem="Mmg-A5-ElN" secondAttribute="bottom" constant="8" id="b7P-nv-fVu"/>
+                            <constraint firstAttribute="centerX" secondItem="jYj-yB-f0O" secondAttribute="centerX" id="byJ-2p-2FA"/>
+                            <constraint firstItem="qZ3-VF-cQz" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="dJH-UV-Muf"/>
+                            <constraint firstItem="Mmg-A5-ElN" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="f21-h1-b80"/>
+                            <constraint firstAttribute="centerX" secondItem="ivG-li-bTX" secondAttribute="centerX" id="hba-Gv-8a8"/>
+                            <constraint firstItem="u30-gA-1Ew" firstAttribute="bottom" secondItem="xYE-Yh-MbZ" secondAttribute="top" id="jqC-yd-p3G"/>
+                            <constraint firstItem="u30-gA-1Ew" firstAttribute="leading" secondItem="xYE-Yh-MbZ" secondAttribute="leading" id="ldo-cp-b1e"/>
+                            <constraint firstItem="iXv-Cd-rhD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="mim-8b-19r"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="xYE-Yh-MbZ" secondAttribute="bottom" id="rA1-ZE-Eqq"/>
+                            <constraint firstItem="X0S-1o-rMI" firstAttribute="top" secondItem="iXv-Cd-rhD" secondAttribute="bottom" constant="8" id="u4T-sy-8Zk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xYE-Yh-MbZ" secondAttribute="trailing" constant="-16" id="v4t-Y5-iDy"/>
+                            <constraint firstItem="aAp-up-VHK" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="xJd-VM-HsD"/>
+                            <constraint firstItem="Mmg-A5-ElN" firstAttribute="top" secondItem="qZ3-VF-cQz" secondAttribute="bottom" constant="8" id="ymE-zv-H6Z"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="volumeControl" destination="ivG-li-bTX" id="jQu-Oq-UOy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="379.5" y="309.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="40yearOldVirgin.jpeg" width="171" height="253"/>
+        <image name="backToTheFuture.jpeg" width="176" height="80"/>
+        <image name="bg.jpg" width="800" height="464"/>
+        <image name="haroldAndKumar.jpeg" width="256" height="192"/>
+        <image name="mystery.jpg" width="46" height="224"/>
+        <image name="officeSpace.jpeg" width="193" height="145"/>
+        <image name="seinfeld.jpeg" width="239" height="169"/>
+        <image name="talladegaNights.jpeg" width="301" height="167"/>
+    </resources>
+</document>
