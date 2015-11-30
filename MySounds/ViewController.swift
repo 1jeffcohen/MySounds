@@ -40,17 +40,22 @@ class ViewController: UIViewController {
     
     func playSound(file: String) {
         
-        var audioPath = NSBundle.mainBundle().pathForResource(file, ofType: "mp3")
+        let audioPath = NSBundle.mainBundle().pathForResource(file, ofType: "mp3")
         
         if audioPath == nil {
             
-            println("Unable to locate file '" + file + "'")
+            print("Unable to locate file '" + file + "'")
             
         } else {
             
             var error : NSError? = nil
         
-            player = AVAudioPlayer(contentsOfURL: NSURL(string: audioPath!), error: &error)
+            do {
+                player = try AVAudioPlayer(contentsOfURL: NSURL(string: audioPath!)!)
+            } catch let error1 as NSError {
+                error = error1
+                //player = nil
+            }
         
             player.currentTime = 0;
         
@@ -62,11 +67,11 @@ class ViewController: UIViewController {
     
     func pickSound(sounds: [String]) {
         
-        var count:UInt32 = UInt32(sounds.count)
+        let count:UInt32 = UInt32(sounds.count)
         
-        var randomGuess = arc4random_uniform(count)
+        let randomGuess = arc4random_uniform(count)
         
-        var index = Int(randomGuess)
+        let index = Int(randomGuess)
         
         playSound(sounds[index])
         
